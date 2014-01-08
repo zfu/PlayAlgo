@@ -88,8 +88,8 @@ public class Q1 {
 		String s = "abcdefg%^*$";
 		System.out.println("The first method: " + IsUnique1(s));
 		System.out.println("The second method: " + IsUnique2(s));
-		int i = '$';
-		System.out.println(i);
+//		int i = '$';
+//		System.out.println(i);
 		System.out.println("The third method: " + IsUnique3(s));
 		System.out.println("The third method: " + IsUnique4(s));
 	}
