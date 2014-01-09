@@ -67,8 +67,8 @@ public class Q2 {
 			char temp = c[head];
 			c[head] = c[tail];
 			c[tail] = temp;
-			head++;
-			tail--;
+			++head;
+			--tail;
 		}
 		
 		return new String(c);
