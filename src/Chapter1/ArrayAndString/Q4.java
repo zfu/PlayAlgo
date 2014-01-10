@@ -31,6 +31,12 @@ public class Q4 {
 		return new String(c);
 	}
 	
+	/**
+	 * Method 2 is in-place
+	 * @param str1
+	 * @param str2
+	 * @return
+	 */
 	public static boolean isAnagrams2(String str1, String str2){
 		if(str1.length() != str2.length()){
 			return false;
