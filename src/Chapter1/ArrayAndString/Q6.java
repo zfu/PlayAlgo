@@ -13,13 +13,13 @@ public class Q6 {
                 {16,17,18,19,20},
                 {21,22,23,24,25}};
    
-   printArray(a);
-   System.out.println();
-   int[][] aa = rotate(a, 5);
-   printArray(aa);
-   System.out.println();
-   rotateInPlace(a, 5);
-   printArray(a);
+	    printArray(a);
+	    System.out.println();
+	    int[][] aa = rotate(a, 5);
+	    printArray(aa);
+	    System.out.println();
+	    rotateInPlace(a, 5);
+	    printArray(a);
 	}
 	
 	private static void printArray(int[][] a){
