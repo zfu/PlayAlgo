@@ -13,7 +13,7 @@ public class Q4 {
 		System.out.println("The first method: " + isAnagrams1("abccba", "acbacb"));
 		System.out.println("The first method: " + isAnagrams1("aa10", "a0a1"));
 		//System.out.println("The Second method: " + isAnagrams2("aa10", "a0a1"));
-		System.out.println("The Second method: " + isAnagrams2("abcddace", "ecaddcba"));
+		System.out.println("The Second method: " + isAnagrams2("abcddace", "ecdddcba"));
 	}
 	
 	public static boolean isAnagrams1(String str1, String str2){

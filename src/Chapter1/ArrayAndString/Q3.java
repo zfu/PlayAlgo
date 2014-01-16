@@ -79,5 +79,4 @@ public class Q3 {
 		return new String(cc, 0, tail);
 		
 	}
-
 }
